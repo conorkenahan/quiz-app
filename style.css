@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 1%;
+}
+
+.quiz, .summary{
+  display: none;
+}
+
+body{
+  font-family: 'Amatic SC', cursive;
+  background-color: #FFAEF7;
+  // #f58ec5;
+  letter-spacing: .3em;
+  color: whitesmoke;
+  text-align: center;
+  list-style: none;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-family: 'Amatic SC', cursive;
+  color: #f8f8f8;
+  text-align: center;
+  font-size: 2em;
+  align-content: center; 
+  align-items: center;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5em;
+  margin-top:0;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; 
+}
+
+
+li, p {
+  color: #f8f8f8;
+  text-align: center;
+  font-size: 1em;
+  align-content: center; 
+  align-items: center;
+  letter-spacing: .1em;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; 
+}
+
+
+
+li {
+  color: #f8f8f8;
+  margin: 10px 0;
+  font: Kosugi, arial;
+  text-align: center;
+  letter-spacing: .1em;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+p {
+  margin-top: .5em;
+  letter-spacing: .3em;
+}
+
+
+
+/* classes */
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header li {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+  list-style: none;
+  font-size: 1.3em;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; 
+}
+
+.topBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.startBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.button {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .3em;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin-top: .5em;
+}
+.button:hover{
+  background-color: #fcf335;
+  color: black;
+  border-radius: 5px;
+}
+
+.response {
+  font-family: kosugi, Arial, sans-serif;
+  margin-top: 1.5em;
+}
+
+.ul {
+  margin-bottom: 0;
+}
+
+.quiz ul {
+  font-family: kosugi, Arial, sans-serif;
+}
+
+.quiz li {
+  cursor: pointer;
+}
+
+.selected {
+  background-color:#fcf335;
+}
+
+.center {
+  text-align: center;
+}
+
+.startImage{
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+.images, {
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.choice:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.questionImage{
+  align-items: center;
+  width: 50%;
+  margin-bottom: .5em;
+}
+
+.paddingBelow {
+  margin-bottom: 3em;
+}
+
+
+.pSummary {
+  font-size: 1.5em;
+}
+
+
+
+/* mobile */
+@media only screen and (min-width: 320px) {
+  .topBanner {
+    width: 45%;
+  }
+
+   .startBox {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+  }
+
+  header {
+    
+  }
+
+
+
+
+  @media only screen and (min-width: 550px) {
+  .startBox {
+    padding-top: 2.6em;
+    padding-bottom: 2.6em;
+  }
+
+
+
+
+  @media only screen and (min-width: 800px) {  
