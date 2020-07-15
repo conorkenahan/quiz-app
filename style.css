@@ -9,46 +9,43 @@
 }
 
 body{
-  font-family: 'Amatic SC', cursive;
-  background-color: #FFAEF7;
+  font-family: 'Neucha', cursive;
+  background-color: #f58ec5;
   // #f58ec5;
   letter-spacing: .3em;
   color: whitesmoke;
   text-align: center;
   list-style: none;
+  
 }
 
 h1 {
   margin-bottom: 1em;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Neucha', cursive;
   color: #f8f8f8;
   text-align: center;
   font-size: 2em;
   align-content: center; 
   align-items: center;
-  text-shadow: -1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+  
+  
+
 }
 
 h2 {
   font-size: 1.5em;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Neucha', cursive;
   display: flex;
   align-content: center;
   align-items: center;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .5em;
   margin-top:0;
-  text-shadow: -1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000; 
+
 }
 
 
@@ -59,32 +56,44 @@ li, p {
   align-content: center; 
   align-items: center;
   letter-spacing: .1em;
-  text-shadow: -1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000; 
+  font-family: 'Neucha', cursive;
+  
 }
 
-
-
-li {
-  color: #f8f8f8;
-  margin: 10px 0;
-  font: Kosugi, arial;
+form, fieldset {
   text-align: center;
-  letter-spacing: .1em;
-  text-shadow: -1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
+
 
 p {
   margin-top: .5em;
   letter-spacing: .3em;
+  font-size: 1.3em;
 }
 
 
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+
+input {
+  font-size: 1.5em;
+  letter-spacing: .3em;
+}
 
 /* classes */
 
@@ -100,10 +109,7 @@ p {
   margin-right: 1em;
   list-style: none;
   font-size: 1.3em;
-  text-shadow: -1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000; 
+ 
 }
 
 .topBanner {
@@ -122,7 +128,7 @@ p {
 }
 
 .button {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Neucha', cursive;
   letter-spacing: .3em;
   color: #333;
   background-color: #fff;
@@ -130,6 +136,8 @@ p {
   font-size: 1.5em;
   border-radius: 5px;
   margin-top: .5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button:hover{
   background-color: #fcf335;
@@ -138,21 +146,9 @@ p {
 }
 
 .response {
-  font-family: kosugi, Arial, sans-serif;
   margin-top: 1.5em;
 }
 
-.ul {
-  margin-bottom: 0;
-}
-
-.quiz ul {
-  font-family: kosugi, Arial, sans-serif;
-}
-
-.quiz li {
-  cursor: pointer;
-}
 
 .selected {
   background-color:#fcf335;
@@ -167,16 +163,22 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
+}
+
+.answers{
+  font-size: 1.2em;
+  font-family: 'Neucha', cursive;
+  text-transform: uppercase;
 }
 
 
-.images, {
+.images {
   align-content: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 15em;
 }
 
 .choice:hover {
@@ -185,7 +187,7 @@ p {
 
 .questionImage{
   align-items: center;
-  width: 50%;
+  width: 15em;
   margin-bottom: .5em;
 }
 
@@ -216,7 +218,7 @@ p {
   header {
     
   }
-
+}
 
 
 
@@ -225,8 +227,5 @@ p {
     padding-top: 2.6em;
     padding-bottom: 2.6em;
   }
+}
 
-
-
-
-  @media only screen and (min-width: 800px) {  
