@@ -16,6 +16,10 @@ body{
   color: whitesmoke;
   text-align: center;
   list-style: none;
+  text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
   
 }
 
