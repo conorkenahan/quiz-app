@@ -230,13 +230,3 @@ function makeQuiz(){
 
 
 $(makeQuiz)
-
-
-
-
-
-  
-  
-  
-  
-  
